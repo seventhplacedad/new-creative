@@ -196,3 +196,438 @@ java.io.IOException: Bad file descriptor
 [01:33:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
 [01:33:41] [Server thread/INFO]: Done (16.932s)! For help, type "help"
 [01:36:49] [Thread-2/INFO]: Stopping server
+*** Error, this build is outdated ***
+*** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
+*** Server will start in 20 seconds ***
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+connect_to 127.0.0.1 port 25565: failed.
+Loading libraries, please wait...
+[01:39:58] [Server thread/INFO]: Starting minecraft server version 1.15.2
+[01:39:58] [Server thread/INFO]: Loading properties
+[01:39:58] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_242]
+	at java.io.FileInputStream.read(FileInputStream.java:255) ~[?:1.8.0_242]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246) ~[?:1.8.0_242]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265) ~[?:1.8.0_242]
+	at org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:248) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLineSimple(ConsoleReader.java:3183) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2333) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2269) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2257) ~[spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+	at net.minecraft.server.v1_15_R1.DedicatedServer$2.run(DedicatedServer.java:105) [spigot-1.15.2.jar:git-Spigot-6de3d4b-a6f8093]
+[01:39:59] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-6de3d4b-a6f8093 (MC: 1.15.2) (Implementing API version 1.15.2-R0.1-SNAPSHOT)
+[01:39:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:39:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:39:59] [Server thread/INFO]: Debug logging is disabled
+[01:39:59] [Server thread/INFO]: Default game type: CREATIVE
+[01:39:59] [Server thread/INFO]: Generating keypair
+[01:40:00] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:40:00] [Server thread/INFO]: Using epoll channel type
+[01:40:01] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[01:40:05] [Server thread/WARN]: Legacy plugin MinecartSpeedPlus v1.13.2 does not specify an api-version.
+[01:40:05] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.1.0;8e55131
+[01:40:06] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2c606a4a]
+[01:40:06] [Server thread/INFO]: [MinecartSpeedPlus] Loading MinecartSpeedPlus v1.13.2
+[01:40:06] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.1.0;8e55131
+[01:40:06] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:40:07] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_15_R2 as the Bukkit adapter
+[01:40:08] [Server thread/WARN]: [WorldEdit] ====================================================
+[01:40:08] [Server thread/WARN]: [WorldEdit]  WorldEdit works better if you use Paper 
+[01:40:08] [Server thread/WARN]: [WorldEdit]  as your server software. 
+[01:40:08] [Server thread/WARN]: [WorldEdit]   
+[01:40:08] [Server thread/WARN]: [WorldEdit]  Paper offers significant performance improvements,
+[01:40:08] [Server thread/WARN]: [WorldEdit]  bug fixes, security enhancements and optional
+[01:40:08] [Server thread/WARN]: [WorldEdit]  features for server owners to enhance their server.
+[01:40:08] [Server thread/WARN]: [WorldEdit]   
+[01:40:08] [Server thread/WARN]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[01:40:08] [Server thread/WARN]: [WorldEdit]  better at diagnosing lag problems over v1.
+[01:40:08] [Server thread/WARN]: [WorldEdit]   
+[01:40:08] [Server thread/WARN]: [WorldEdit]  All of your plugins should still work, and the
+[01:40:08] [Server thread/WARN]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[01:40:08] [Server thread/WARN]: [WorldEdit]   
+[01:40:08] [Server thread/WARN]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[01:40:08] [Server thread/WARN]: [WorldEdit] ====================================================
+[01:40:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:40:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:40:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:40:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:40:08] [Server thread/INFO]: Preparing level "kevlar"
+[01:40:08] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[01:40:08] [Server thread/INFO]: Loaded 6 recipes
+[01:40:09] [Server thread/INFO]: -------- World Settings For [kevlar] --------
+[01:40:09] [Server thread/INFO]: Mob Spawn Range: 6
+[01:40:09] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:40:09] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:40:09] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:40:09] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:40:09] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:40:09] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:40:09] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:40:09] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:40:09] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:40:09] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:40:09] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:40:09] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:40:09] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:40:09] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:40:09] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:40:09] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:40:09] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:40:09] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:40:09] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:40:09] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:40:09] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[01:40:09] [Server thread/INFO]: Max TNT Explosions: 100
+[01:40:09] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:40:09] [Server thread/INFO]: View Distance: 16
+[01:40:09] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:40:09] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:40:09] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:40:09] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:40:09] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:40:09] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:40:13] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:40:14] [Server thread/INFO]: -------- World Settings For [kevlar_nether] --------
+[01:40:14] [Server thread/INFO]: Mob Spawn Range: 6
+[01:40:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:40:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:40:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:40:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:40:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[01:40:14] [Server thread/INFO]: Max TNT Explosions: 100
+[01:40:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:40:14] [Server thread/INFO]: View Distance: 16
+[01:40:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:40:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:40:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:40:14] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:40:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:40:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:40:14] [Server thread/INFO]: -------- World Settings For [kevlar_the_end] --------
+[01:40:14] [Server thread/INFO]: Mob Spawn Range: 6
+[01:40:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:40:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:40:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:40:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:40:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:40:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[01:40:14] [Server thread/INFO]: Max TNT Explosions: 100
+[01:40:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:40:14] [Server thread/INFO]: View Distance: 16
+[01:40:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:40:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:40:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:40:14] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[01:40:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:40:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:40:14] [Server thread/INFO]: Preparing start region for dimension 'kevlar'/minecraft:overworld
+[01:40:15] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:15] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:15] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:15] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:17] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:17] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:17] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:23] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:23] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:23] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:23] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:23] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:23] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:23] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:23] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:23] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:23] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:23] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:23] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:23] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:24] [Server thread/INFO]: Preparing spawn area: 85%
+[01:40:24] [Server thread/INFO]: Time elapsed: 10156 ms
+[01:40:24] [Server thread/INFO]: Preparing start region for dimension 'kevlar_nether'/minecraft:the_nether
+[01:40:25] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:25] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:25] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:31] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:31] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:31] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:31] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:31] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:31] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:31] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:31] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:31] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:31] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:31] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:31] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:34] [Server thread/INFO]: Preparing spawn area: 83%
+[01:40:34] [Server thread/INFO]: Preparing spawn area: 83%
+[01:40:34] [Server thread/INFO]: Preparing spawn area: 83%
+[01:40:34] [Server thread/INFO]: Preparing spawn area: 83%
+[01:40:34] [Server thread/INFO]: Preparing spawn area: 83%
+[01:40:34] [Server thread/INFO]: Preparing spawn area: 83%
+[01:40:35] [Server-Worker-5/INFO]: Preparing spawn area: 99%
+[01:40:35] [Server-Worker-3/INFO]: Preparing spawn area: 99%
+[01:40:35] [Server thread/INFO]: Time elapsed: 11036 ms
+[01:40:35] [Server thread/INFO]: Preparing start region for dimension 'kevlar_the_end'/minecraft:the_end
+[01:40:35] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:36] [Server thread/INFO]: Preparing spawn area: 0%
+[01:40:36] [Server thread/INFO]: Preparing spawn area: 83%
+[01:40:37] [Server thread/INFO]: Preparing spawn area: 83%
+[01:40:37] [Server thread/INFO]: Time elapsed: 1901 ms
+[01:40:37] [Server thread/INFO]: [MinecartSpeedPlus] Enabling MinecartSpeedPlus v1.13.2
+[01:40:37] [Server thread/INFO]: MinecartSpeedPlus version 1.13.2 started.
+[01:40:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:40:37] [Server thread/INFO]: Done (29.415s)! For help, type "help"
+[01:40:45] [User Authenticator #1/INFO]: UUID of player s_mitty is a55aa0d5-851c-363a-9b6f-f56fd5842a3d
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:351 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:300 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:301 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:298 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:299 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what EntityHorse is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:95 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:324 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:328 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:164 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:162 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:163 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:323 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:321 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:171 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:293 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:82 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:170 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:291 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:85 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:84 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:89 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:87 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:159 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:154 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:152 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:276 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:155 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:397 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:156 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:160 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:70 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:161 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:72 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:78 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:79 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:76 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:77 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:148 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:69 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:143 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:383 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:146 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:389 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:147 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:420 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:145 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:391 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:271 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:392 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:390 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:61 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:65 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:66 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:139 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:58 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:259 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:138 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:135 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:136 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:134 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:3 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:4 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:1 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:380 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:53 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:50 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:56 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:57 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:5 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:54 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:6 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:49 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:129 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:404 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:126 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:47 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:48 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:120 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:123 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:41 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:42 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:45 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:44 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:38 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:116 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:37 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:351 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:110 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:113 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:355 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:356 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:114 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:112 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:30 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:31 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:35 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:27 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:106 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:107 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:25 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:108 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:109 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:102 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:101 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:20 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:23 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:24 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:17 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:18 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:175 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:330 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:295 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:331 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:96 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:97 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:95 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:12 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:13 is
+[01:40:45] [Server thread/WARN]: Invalid statistic in ./kevlar/stats/a55aa0d5-851c-363a-9b6f-f56fd5842a3d.json: Don't know what minecraft:98 is
+[01:40:46] [Server thread/INFO]: s_mitty has made the advancement [Ice Bucket Challenge]
+[01:40:47] [Server thread/INFO]: s_mitty[/127.0.0.1:58194] logged in with entity id 166 at ([kevlar]-267.4519140192597, 64.8482324626151, 435.79084123307126)
+[01:42:20] [Server thread/INFO]: s_mitty lost connection: Timed out
+[01:42:20] [Server thread/INFO]: s_mitty left the game
+[01:43:56] [User Authenticator #2/INFO]: UUID of player s_mitty is a55aa0d5-851c-363a-9b6f-f56fd5842a3d
+[01:43:57] [Server thread/INFO]: s_mitty[/127.0.0.1:58288] logged in with entity id 811 at ([kevlar]-267.4519140192597, 64.8482324626151, 435.79084123307126)
+[01:44:14] [Server thread/INFO]: s_mitty issued server command: /time set day
+[01:45:04] [Server thread/INFO]: s_mitty issued server command: /time
+[01:45:23] [Server thread/INFO]: s_mitty has made the advancement [Sweet Dreams]
+[01:47:24] [Server thread/INFO]: s_mitty issued server command: //time set day
+[01:47:29] [Server thread/INFO]: s_mitty issued server command: /time set day
+[01:47:30] [Server thread/INFO]: s_mitty issued server command: /help
+[01:47:41] [Server thread/INFO]: s_mitty issued server command: //wand
+[01:48:04] [Server thread/INFO]: s_mitty issued server command: //gamemode s_mitty creative
+[01:48:18] [Server thread/INFO]: s_mitty issued server command: //sel
+[01:49:45] [Server thread/INFO]: s_mitty issued server command: //warp citycenter
+[01:49:51] [Server thread/INFO]: s_mitty issued server command: /warp citycenter
+[02:02:41] [Server thread/INFO]: s_mitty issued server command: //toggleplace
+[02:02:58] [Server thread/INFO]: s_mitty issued server command: /pl
+[02:03:10] [Server thread/INFO]: s_mitty issued server command: /help 2
+[02:03:27] [Server thread/INFO]: s_mitty issued server command: /tool
+[02:03:45] [Server thread/INFO]: s_mitty issued server command: /tool wand
+[02:03:49] [Server thread/INFO]: s_mitty issued server command: /tool farwand
+[02:04:48] [Server thread/WARN]: s_mitty moved too quickly! -15.864530041110157,2.5680955236881573,14.598336277051203
+[02:05:13] [Server thread/INFO]: s_mitty lost connection: Timed out
+[02:05:13] [Server thread/INFO]: s_mitty left the game
+[02:06:54] [User Authenticator #3/INFO]: UUID of player s_mitty is a55aa0d5-851c-363a-9b6f-f56fd5842a3d
+[02:06:54] [Server thread/INFO]: s_mitty[/127.0.0.1:58578] logged in with entity id 2299 at ([kevlar]-110.64485812529061, 66.81795691039858, 677.8000000119209)
+[02:23:25] [User Authenticator #4/INFO]: UUID of player kevlar is 6cbda5b4-dad1-394c-9060-e8b56e04dc2c
+[02:23:25] [Server thread/INFO]: kevlar[/127.0.0.1:58770] logged in with entity id 3048 at ([kevlar]122.5, 64.0, 261.5)
+[02:23:50] [Server thread/INFO]: kevlar lost connection: Timed out
+[02:23:50] [Server thread/INFO]: kevlar left the game
+[02:24:42] [User Authenticator #5/INFO]: UUID of player kevlar is 6cbda5b4-dad1-394c-9060-e8b56e04dc2c
+[02:24:42] [Server thread/INFO]: kevlar[/127.0.0.1:58832] logged in with entity id 3207 at ([kevlar]122.48384975306885, 64.0, 261.51110538148055)
+[02:24:57] [Server thread/INFO]: kevlar issued server command: /time set day
+[02:25:05] [Server thread/INFO]: kevlar issued server command: /op kevlar
+[02:25:10] [Server thread/INFO]: kevlar issued server command: /help
+[02:25:17] [Server thread/INFO]: kevlar issued server command: /help wor
+[02:25:28] [Server thread/INFO]: kevlar issued server command: /bu
+[02:25:52] [Server thread/INFO]: kevlar issued server command: /help bukkit
+[02:25:59] [Server thread/INFO]: kevlar issued server command: /help
+[02:26:05] [Server thread/INFO]: kevlar issued server command: /bukkit help
+[02:26:09] [Server thread/INFO]: kevlar issued server command: /help
+[02:26:15] [Server thread/INFO]: kevlar issued server command: /help bukkit
+[02:26:42] [Server thread/INFO]: kevlar issued server command: /help aliases
+[02:26:52] [Server thread/INFO]: kevlar issued server command: //br
+[02:27:01] [Server thread/INFO]: kevlar lost connection: Disconnected
+[02:27:01] [Server thread/INFO]: kevlar left the game
+[02:32:15] [Server thread/INFO]: s_mitty lost connection: Disconnected
+[02:32:15] [Server thread/INFO]: s_mitty left the game
+[02:33:18] [User Authenticator #6/INFO]: UUID of player kevlar is 6cbda5b4-dad1-394c-9060-e8b56e04dc2c
+[02:33:18] [Server thread/INFO]: kevlar[/127.0.0.1:58902] logged in with entity id 3506 at ([kevlar]99.17654284122875, 73.23301854216155, 241.30871618654953)
+[02:35:10] [Server thread/INFO]: kevlar issued server command: /bukkit:version
+[02:35:40] [Server thread/INFO]: kevlar issued server command: /advancement grant player
+[02:35:53] [Server thread/INFO]: kevlar issued server command: /b
+[02:36:27] [Server thread/INFO]: kevlar lost connection: Disconnected
+[02:36:27] [Server thread/INFO]: kevlar left the game
+[05:00:05] [User Authenticator #7/INFO]: UUID of player s_mitty is a55aa0d5-851c-363a-9b6f-f56fd5842a3d
+[05:00:05] [Server thread/INFO]: s_mitty[/127.0.0.1:60744] logged in with entity id 3703 at ([kevlar]-51.9901562529479, 139.70450738874055, 671.4246368004591)
+[05:14:26] [Server thread/INFO]: s_mitty lost connection: Disconnected
+[05:14:26] [Server thread/INFO]: s_mitty left the game
+[05:24:04] [User Authenticator #8/INFO]: UUID of player s_mitty is a55aa0d5-851c-363a-9b6f-f56fd5842a3d
+[05:24:04] [Server thread/INFO]: s_mitty[/127.0.0.1:60998] logged in with entity id 4763 at ([kevlar]-274.69999998807907, 59.47164632390163, 498.45846163071695)
+[05:38:16] [Server thread/INFO]: s_mitty lost connection: Disconnected
+[05:38:16] [Server thread/INFO]: s_mitty left the game
+[20:47:13] [User Authenticator #9/INFO]: UUID of player Kevlar is 04563d4c-6a5b-343e-81b6-8bc0e358b91d
+[20:47:13] [Server thread/INFO]: Kevlar[/127.0.0.1:44874] logged in with entity id 5634 at ([kevlar]-203.74681189133688, 54.7125, 513.5)
+[20:47:25] [Server thread/INFO]: Kevlar issued server command: /op s_mitty
+[20:47:25] [Server thread/INFO]: [Kevlar: Made s_mitty a server operator]
+[20:47:34] [Server thread/INFO]: Kevlar issued server command: /op aidansmit0304
+[20:47:34] [Server thread/INFO]: [Kevlar: Made aidansmit0304 a server operator]
+[20:47:38] [Server thread/INFO]: Kevlar issued server command: /op aidansmit0403
+[20:47:38] [Server thread/INFO]: [Kevlar: Made aidansmit0403 a server operator]
+[20:49:01] [Server thread/INFO]: Kevlar lost connection: Disconnected
+[20:49:01] [Server thread/INFO]: Kevlar left the game
+[20:50:31] [User Authenticator #10/INFO]: UUID of player Kevlar is 04563d4c-6a5b-343e-81b6-8bc0e358b91d
+[20:50:31] [Server thread/INFO]: Kevlar[/127.0.0.1:44966] logged in with entity id 6339 at ([kevlar]-484.4070173486792, 89.0, 511.47205592955584)
+[20:51:19] [Server thread/INFO]: Kevlar lost connection: Disconnected
+[20:51:19] [Server thread/INFO]: Kevlar left the game
+[21:02:24] [Thread-2/INFO]: Stopping server
+[21:02:24] [Thread-2/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[21:02:24] [Thread-2/INFO]: Saving players
+[21:02:24] [Thread-2/INFO]: Saving worlds
+[21:02:24] [Thread-2/INFO]: Saving chunks for level 'kevlar'/minecraft:overworld
+[21:02:24] [Thread-2/INFO]: ThreadedAnvilChunkStorage (kevlar): All chunks are saved
+[21:02:24] [Thread-2/INFO]: Saving chunks for level 'kevlar_nether'/minecraft:the_nether
+[21:02:24] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:02:24] [Thread-2/INFO]: Saving chunks for level 'kevlar_the_end'/minecraft:the_end
+[21:02:24] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:02:24] [Thread-2/INFO]: ThreadedAnvilChunkStorage (kevlar): All chunks are saved
+[21:02:26] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:02:26] [Thread-2/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
